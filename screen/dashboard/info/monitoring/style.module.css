@@ -1,0 +1,36 @@
+@import url('../../../colors.css');
+
+.component {
+
+    position: relative;
+
+    border: 3px solid var(--dark);
+    width: 110px;
+    max-width: 110px;
+    min-width: 110px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    padding-top: 1px;
+    color: var(--dark);
+
+    display: flex;
+    flex-direction: row;
+}
+
+.memoryUsage {
+    width: 50%;
+    text-align: end;
+    margin-right: 3px;
+}
+
+.Kb {
+    margin-right: 7px;
+}
+
+.label {
+    margin-left: 3px;
+    bottom: 3px;
+    position: absolute;
+    font-size: 13px;
+    line-height: 11px;
+}

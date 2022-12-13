@@ -1,0 +1,20 @@
+.component {
+
+    position: absolute;
+    z-index: 1000;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    pointer-events: none;
+
+}
+
+.background {
+
+    background: radial-gradient(58.86% 24.77% at 48.93% 109.86%, rgba(219, 255, 0, 0.2) 0%, rgba(219, 255, 0, 0) 100%)
+            /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+            , radial-gradient(134.85% 38.3% at 50% -20.41%, rgba(219, 255, 0, 0.15) 0%, rgba(219, 255, 0, 0) 100%), radial-gradient(50% 50% at 50% 50%, rgba(219, 255, 0, 0.03) 0%, rgba(64, 64, 64, 0) 100%), radial-gradient(17.85% 97.48% at 0% 50%, rgba(223, 255, 0, 0.15) 0%, rgba(104, 111, 56, 0) 100%), radial-gradient(30.19% 117.43% at 100% 48.39%, rgba(219, 255, 0, 0.15) 0%, rgba(0, 0, 0, 0) 100%, rgba(219, 255, 0, 0) 100%), radial-gradient(179.47% 94.5% at 50% 50%, rgba(137, 152, 94, 0.148) 0%, rgba(0, 0, 0, 0) 100%);
+}

@@ -1,0 +1,8 @@
+
+.component {
+    display: flex;
+    flex-direction: row;
+    padding-left: 4px;
+    padding-right: 4px;
+    
+}

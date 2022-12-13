@@ -1,0 +1,22 @@
+.component {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-color: aquamarine;
+    z-index: 2000;
+    bottom: 18px;
+    right: 80px;
+    border: 2px solid black;
+    filter: blur(0.4px);
+
+    cursor: pointer;
+}
+
+
+.off {
+    background-color: red;
+}
+
+.on {
+    background-color: greenyellow;
+}
