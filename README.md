@@ -1,6 +1,8 @@
 # PocketDummy_V1
 
+To load on page:
+
 ```ts
-import PocketDummy from "../GadgetsO_o/PocketDummy_V1";
+import PocketDummy from "PocketDummy_V1";
 PocketDummy.Display();
 ```
